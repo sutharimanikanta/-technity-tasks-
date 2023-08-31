@@ -1,1 +1,0 @@
-# techinity-abhudhay
