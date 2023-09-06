@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  background-color: #283149;
+  margin: 0; /* Add this line to remove default margin */
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  text-shadow: 3px 3px 0 #DA0463; /* Adjust the shadow position */
+}
+
+/* Apply styles to the drum buttons */
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 3px 0 #DBEDF3; /* Adjust the shadow position */
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  cursor: pointer; /* Add cursor style to indicate interactivity */
+  transition: background-color 0.2s; /* Add smooth transition */
+}
+.drum.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.8;
+}
+
+/* Apply hover styles to buttons */
+.drum:hover {
+  background-color: #DBEDF3;
+  color: #DA0463;
+  text-shadow: 3px 3px 0 #283149;
+}
+
+/* Apply background colors to individual buttons */
+.w {
+  background-color: blueviolet;
+}
+
+.a {
+  background-color: rgb(43, 226, 131);
+}
+
+.s {
+  background-color: rgb(226, 198, 43);
+}
+
+.d {
+  background-color: rgb(226, 43, 64);
+}
+
+.j {
+  background-color: rgb(226, 174, 43);
+}
+
+.k {
+  background-color: rgb(226, 43, 186);
+}
+
+.l {
+  background-color: rgb(43, 144, 226);
+}
+
+/* Apply styles to pressed buttons */
+.drum.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.8;
+}
+
+/* Apply styles to the container */
+.set {
+  margin: 10% auto;
+}
+
+/* Apply styles to the game-over class */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
